@@ -34,12 +34,13 @@ body{
     min-width: 50px;
     width: 5%;
     height: 50px;
-    background-color: rgb(99, 56, 56);
+    background-color: rgb(15, 204, 44);
     position: absolute;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     transition: 1s;
+    z-index: 5;
 }
 
 #menu:hover{
@@ -52,4 +53,13 @@ body{
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.border{
+    pointer-events: none;
+    width: 98.5%;
+    height: 97%;
+    position: absolute;
+    z-index: 6;
+    border: 3px solid black;
 }
