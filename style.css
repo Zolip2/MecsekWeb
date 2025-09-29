@@ -4,6 +4,10 @@ body{
     background-color: rgb(50, 108, 50);
 }
 
+h1{
+    pointer-events: none;
+}
+
 #header{
     width: 100%;
     justify-content: center;

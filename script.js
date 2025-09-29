@@ -14,3 +14,16 @@ $("#menu").click(function(){
     }, 500)
     
 })*/
+
+
+$.ajax({
+    url: 'index.php',
+    method: 'GET',
+    datatype: "text",
+    success: function(data){
+        $('#test').text(data);
+    },
+    error: function(){
+        $("#test").text("Error loading text.");
+    }
+})
