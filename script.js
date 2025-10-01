@@ -2,7 +2,7 @@
 /*$("document").ready(function(){
     $(".menuButton").css("display", "none");
     $(".menuButton").css("opacity", "0");
-})
+})*/
 
 
 $("#menu").click(function(){
@@ -13,7 +13,7 @@ $("#menu").click(function(){
         $(".menuButton").css("opacity", "1");
     }, 500)
     
-})*/
+})
 
 
 $.ajax({
